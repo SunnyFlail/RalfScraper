@@ -1,0 +1,21 @@
+{
+    "name": "sunnyflail/ost_looker",
+    "description": "A simple crawler for finding things on ralfcasino ffshrin archives!",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "voku/simple_html_dom": "^4.7",
+        "sunnyflail/color-cli": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SunnyFlail/Console"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RalfScraper\\" : "src"
+        }
+    }
+}
